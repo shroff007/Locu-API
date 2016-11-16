@@ -2,7 +2,7 @@
 import urllib2
 import json
 
-locu_api = 'c23822c852b5a7102e7c9dab77e6852a68e54c61'
+locu_api = 'Your API Key'
 
 def locu_search(query2):
     url = 'https://api.locu.com/v1_0/venue/search/?api_key=' + locu_api
